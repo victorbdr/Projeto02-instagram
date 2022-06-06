@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.negrito {
+    font-weight: bold;
+   }
 header {
     z-index: 1;
     position: fixed;
@@ -286,7 +289,7 @@ footer{
         display: none;
     }
     body{
-        width: 614px;
+        width: 100%;
         flex-direction: column;
         justify-content:center;
         align-items:center;
@@ -361,7 +364,7 @@ border: 1px solid #DBDBDB;
 justify-content: space-between;
     position: fixed;
     bottom: 0px;
-    left: 142px;
+
 }
 .bottomicons{
     width: 100%;
